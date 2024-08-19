@@ -1,0 +1,271 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+header{
+    background-color: rgb(18, 18, 119);
+    text-align: right;
+    color: white;
+    padding-right: 10px;
+}
+
+main{
+    padding: 20px;
+    margin: 0 50px 10px 50px;
+    align-items: center;
+}
+
+nav{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 10%;
+    margin: 10px 0 10px 0;
+}
+
+nav li{
+    position: relative;
+}
+
+nav ul{
+    list-style-type: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+nav a{
+    text-decoration: none;
+    margin: 10px;
+    color: black;
+}
+
+#menu-sub ul, #menu-sub2 ul{
+    position: absolute;
+    display: none;
+    background-color: rgb(18, 18, 119);
+}
+
+#menu-sub:hover ul, #menu-sub.over ul,
+#menu-sub2:hover ul, #menu-sub2.over ul{
+    display: block;
+}
+
+#menu-sub ul li a{
+    color: white;
+}
+
+#menu-sub2 ul{
+    top: 2px;
+    left: 100%;
+}
+
+#menu-sub ul li{
+    color: white;
+    z-index: 2;
+    display:block;
+    padding: 5px;
+}
+
+#container-slider{
+    align-items: center;
+    justify-content: center;
+    display: flex;
+}
+
+#container-section2 {
+    display: flex;
+    align-items: center;
+    margin: 0 5%  0 10%;
+    justify-content: space-between;
+}
+
+.text-section2{
+    padding: 20px;
+}
+
+#img-section2{
+    justify-content: end;
+}
+
+#boxes{
+    display: flex;
+    margin: 0 5%  0 10%;
+}
+
+figure{
+    display: inline-block;
+    text-align: justify;
+}
+
+figcaption{
+    max-width: 70%;
+}
+
+figure img{
+    border-left: 1px solid black;
+    border-bottom: 1px solid black;
+}
+
+footer{
+    width: 100%;
+    height: 10em;
+    align-items: center;
+    text-align: center;
+    padding: 10px;
+    background-color: rgb(92, 89, 89);
+}
+
+footer ul{
+    list-style-type: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+footer a{
+    text-decoration: none;
+    margin: 10px 5px 0 5px;
+    color: rgba(255, 255, 255, 0.801);
+}
+
+@media screen and (max-width: 480px) {
+    header p{
+        margin: 0;
+    }
+
+    nav{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 0;
+        margin:  0 0 10px 0;
+    }
+
+    nav img{
+        display: none;
+    }
+
+    nav a{
+        text-align: center;
+        font-size: 0.9em;
+    }
+  
+    main{
+        padding: 0;
+        margin: 0;
+        align-items: center;
+    }
+
+
+
+    #container-section2 {
+        display: flex;
+        align-items: center;
+        margin: 0;
+        justify-content: space-between;
+    }
+    
+    .text-section2{
+        font-size: 0.9em;
+    }
+
+    .text-section2 h1{
+        font-size: 1.2em;
+    }
+    
+    #img-section2{
+        justify-content: end;
+        width: 130px;
+        height: 130px;
+    }
+
+    #boxes {
+        display: flex;
+        flex-wrap: wrap;
+        margin: 0;
+        padding: 15px;
+      }
+    
+      figure {
+        display: block;
+        text-align: justify;
+        margin: 5px;
+        width: calc(50% - 10px);
+      }
+    
+      figcaption{
+        max-width: 90%;
+      }
+
+      figure img {
+        border-left: 1px solid black;
+        border-bottom: 1px solid black;
+        width: 130px; 
+        margin-bottom: 5px;
+      }
+}
+
+@media screen and (min-width: 480px) {
+    header p{
+        margin: 0;
+    }
+
+    nav{
+        padding: 0;
+        margin: 10px 0 10px 0;
+    }
+
+    main{
+        padding: 0;
+    }
+
+    #container-section2 {
+        display: flex;
+        align-items: center;
+        margin: 0;
+        justify-content: space-between;
+    }
+    
+    .text-section2{
+        font-size: 1.2em;
+    }
+
+    .text-section2 h1{
+        font-size: 1.2em;
+    }
+    
+    #img-section2{
+        justify-content: end;
+        width: 150px;
+        height: 150px;
+    }
+
+    #boxes {
+        display: flex;
+        flex-wrap: wrap;
+        margin: 0;
+        padding: 15px;
+      }
+    
+      figure {
+        display: block;
+        text-align: justify;
+        margin: 5px;
+        width: calc(50% - 10px);
+      }
+    
+      figcaption{
+        max-width: 80%;
+      }
+
+      figure img {
+        border-left: 1px solid black;
+        border-bottom: 1px solid black;
+        width: 130px; 
+        margin-bottom: 5px;
+      }
+}

@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grupo Ideal Trends: Teste</title>
+
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="./css/default.css" type="text/css" media="screen" />
+    <link rel="stylesheet" href="./css//nivo-slider.css" type="text/css" media="screen" />
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+    <script type="text/javascript" src="js/jquery.nivo.slider.js"></script>
+
+</head>
+<body>
+    
+    <header>
+        <p>11 1234-1234 &nbsp 11 1234-1234</p>
+    </header>
+    
+    <nav>
+        <img src="./img/logo-grouptrends (1).png" alt="">
+        <ul>
+            <li><a href="#">HOME</a></li>
+            <li id="menu-sub"><a href="#">EMPRESA</a>
+                <ul>
+                    <li><a href="#">Submenu1</a></li>
+                    <li><a href="#">Submenu1</a></li>
+                    <li><a href="#">Submenu1</a></li>
+                    <li id="menu-sub2"><a href="#">Submenu1</a>
+                        <ul>
+                            <li><a href="#">Submenu2</a></li>
+                            <li><a href="#">Submenu2</a></li>
+                            <li><a href="#">Submenu2</a></li>
+                            <li><a href="#">Submenu2</a></li>
+                        </ul>
+                    </li>
+                </ul>
+            </li>
+            <li><a href="#">CLIENTE</a></li>
+            <li><a href="#">CONTATO</a></li>
+        </ul>
+    </nav>
+
+    <main>
+        <section id="container-slider">
+            <div class="slider-wrapper theme-default">
+                <div id="slider" class="nivoSlider"> 
+                    <img src="img/nemo.jpg" data-thumb="img/nemo.jpg" alt="" /> 
+                    <a href="http://dev7studios.com"><img src="img/up.jpg" data-thumb="img/up.jpg"/></a>
+                </div>
+            </div>
+        </section>
+
+        <section id="container-section2">
+            <div class="text-section2">
+            <h1>TESTE DE HTML</h1>
+            <p>Quesitos de avaliação</p>
+            <ul style="list-style-type: disc" >
+                <li>Organização do código</li>
+                <li>Nivel de detalhismo</li>
+                <li>Tempo de desenvolvimento</li>
+            </ul>
+            </div>
+            <img src="./img/img-idealtrends (1).png" alt="" id="img-section2">
+        </section>
+
+        <section id="boxes">
+            <figure>
+                <img src="./img/img-idealtrendsBoxes.png">
+                <figcaption>Todos os seres humanos nascem livres e iguais</figcaption>
+            </figure>
+
+            <figure>
+                <img src="./img/img-idealtrendsBoxes.png">
+                <figcaption>Todos os seres humanos nascem livres e iguais</figcaption>
+            </figure>
+
+            <figure>
+                <img src="./img/img-idealtrendsBoxes.png">
+                <figcaption>Todos os seres humanos nascem livres e iguais</figcaption>
+            </figure>
+
+            <figure>
+                <img src="./img/img-idealtrendsBoxes.png">
+                <figcaption>Todos os seres humanos nascem livres e iguais</figcaption>
+            </figure>
+
+        </section>
+    </main>
+
+    <footer>
+        <ul>
+            <li><a href="#">HOME</a></li>
+            <li><a href="#">EMPRESA</a></li>
+            <li><a href="#">CLIENTES</a></li>
+            <li><a href="#">CONTATO</a></li>
+        </ul>
+    </footer>
+
+    <script type="text/javascript">
+        $(window).load(function() {
+            $('#slider').nivoSlider();
+        });
+        </script> 
+
+</body>
+</html>
