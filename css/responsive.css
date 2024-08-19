@@ -1,0 +1,137 @@
+@media screen and (max-width: 480px) {
+    header p{
+        margin: 0;
+    }
+
+    nav{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 0;
+        margin:  0 0 10px 0;
+    }
+
+    nav img{
+        display: none;
+    }
+
+    nav a{
+        text-align: center;
+        font-size: 0.9em;
+    }
+  
+    main{
+        padding: 0;
+        margin: 0;
+        align-items: center;
+    }
+
+
+
+    #container-section2 {
+        display: flex;
+        align-items: center;
+        margin: 0;
+        justify-content: space-between;
+    }
+    
+    .text-section2{
+        font-size: 0.9em;
+    }
+
+    .text-section2 h1{
+        font-size: 1.2em;
+    }
+    
+    #img-section2{
+        justify-content: end;
+        width: 130px;
+        height: 130px;
+    }
+
+    #boxes {
+        display: flex;
+        flex-wrap: wrap;
+        margin: 0;
+        padding: 15px;
+      }
+    
+      figure {
+        display: block;
+        text-align: justify;
+        margin: 5px;
+        width: calc(50% - 10px);
+      }
+    
+      figcaption{
+        max-width: 90%;
+      }
+
+      figure img {
+        border-left: 1px solid black;
+        border-bottom: 1px solid black;
+        width: 130px; 
+        margin-bottom: 5px;
+      }
+}
+
+@media screen and (min-width: 480px) and (max-width:600px){
+    header p{
+        margin: 0;
+    }
+
+    nav{
+        padding: 0;
+        margin: 10px 0 10px 0;
+    }
+
+    main{
+        padding: 0;
+    }
+
+    #container-section2 {
+        display: flex;
+        align-items: center;
+        margin: 0;
+        justify-content: space-between;
+    }
+    
+    .text-section2{
+        font-size: 1.2em;
+    }
+
+    .text-section2 h1{
+        font-size: 1.2em;
+    }
+    
+    #img-section2{
+        justify-content: end;
+        width: 150px;
+        height: 150px;
+    }
+
+    #boxes {
+        display: flex;
+        flex-wrap: wrap;
+        margin: 0;
+        padding: 15px;
+      }
+    
+      figure {
+        display: block;
+        text-align: justify;
+        margin: 5px;
+        width: calc(50% - 10px);
+      }
+    
+      figcaption{
+        max-width: 80%;
+      }
+
+      figure img {
+        border-left: 1px solid black;
+        border-bottom: 1px solid black;
+        width: 130px; 
+        margin-bottom: 5px;
+      }
+}
